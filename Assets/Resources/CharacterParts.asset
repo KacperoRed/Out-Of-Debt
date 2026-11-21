@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9bd005697101aa498859d83018caaf3, type: 3}
+  m_Name: CharacterParts
+  m_EditorClassIdentifier: Assembly-CSharp::MiniGTA.CharacterPartLibrary
+  bodyPrefab: {fileID: 146935546818660778, guid: ee138c85834c476081ca97e2acf74432, type: 3}
+  controller: {fileID: 9100000, guid: 33352f2e51ddbe64aa8b493592fea973, type: 2}
+  avatar: {fileID: 9000000, guid: 39ca3f5f903246e79dac11707013e4e8, type: 3}
+  scale: 0.922784
+  yOffset: 0.09269275
+  categories:
+  - id: face
+    label: Twarz
+    slot: 1
+    hiddenByFull: 0
+    isFull: 0
+    defaultIndex: 0
+    npcChance: 1
+    parts:
+    - {fileID: 8112774624926477602, guid: 8b105123f67342e090f9d3a5c41b2f1e, type: 3}
+    - {fileID: 1195756561241719265, guid: 140a0f6e055544acb38fefdd2682b088, type: 3}
+    - {fileID: 2106138052219469381, guid: 2894c235275e41baacedeea64ed10431, type: 3}
+  - id: hair
+    label: Fryzura
+    slot: 2
+    hiddenByFull: 0
+    isFull: 0
+    defaultIndex: 0
+    npcChance: 0.85
+    parts:
+    - {fileID: 3024251227661365263, guid: 2df39788485d4bf6ab64fd88f315072a, type: 3}
+    - {fileID: 936523516433880279, guid: 7ea6ed99483c48bfbb7530e8b04debc4, type: 3}
+    - {fileID: 5174471959385066266, guid: 51f9383f4e3c49a0878cb982f349585a, type: 3}
+  - id: hat
+    label: Czapka / kapelusz
+    slot: 2
+    hiddenByFull: 0
+    isFull: 0
+    defaultIndex: -1
+    npcChance: 0.2
+    parts:
+    - {fileID: 2984174553125389498, guid: 1b0b4dce24b04cf18d1e531272692b6a, type: 3}
+    - {fileID: 2977515194574276571, guid: 43dc97cd2ed04c169e40dc085036ce48, type: 3}
+    - {fileID: 3605869103271255009, guid: aa90f0e8a59f422498258172f25bcca8, type: 3}
+    - {fileID: 3605869103271255009, guid: 629c3b7e9a0d4396b2663a37adf6fbe4, type: 3}
+  - id: glasses
+    label: Okulary
+    slot: 0
+    hiddenByFull: 0
+    isFull: 0
+    defaultIndex: -1
+    npcChance: 0.15
+    parts:
+    - {fileID: 5796629793419342708, guid: d0ae2db1d82148c9bf5c2d7a569dba82, type: 3}
+    - {fileID: 5160338263037534183, guid: afc78f49c95543999f8d5dd5d42ebc4c, type: 3}
+  - id: faceacc
+    label: Dodatki twarzy
+    slot: 2
+    hiddenByFull: 0
+    isFull: 0
+    defaultIndex: -1
+    npcChance: 0.1
+    parts:
+    - {fileID: 3103565648387152083, guid: 460c36accc334af28b5af34fb1707300, type: 3}
+    - {fileID: 8885864406222687154, guid: 043c48fcf3764d5fa980a252ca6dec83, type: 3}
+    - {fileID: 4472029755296537295, guid: d704e58e2bb3430bb6a5d7249d179c6a, type: 3}
+    - {fileID: 7447399822274565913, guid: bf164ddf8dd1467ca33177c0fd82db40, type: 3}
+    - {fileID: 7768168386555931634, guid: 7b3f30a22f994545b593d70dad0a4dfa, type: 3}
+  - id: gloves
+    label: "R\u0119kawiczki"
+    slot: 4
+    hiddenByFull: 0
+    isFull: 0
+    defaultIndex: -1
+    npcChance: 0.06
+    parts:
+    - {fileID: 3641532560445071877, guid: 436099c7d86444ff94a8998d525435e4, type: 3}
+    - {fileID: 5209372020472153478, guid: 454a2101d4534265ad71f23b30436bb0, type: 3}
+  - id: full
+    label: "Str\xF3j ca\u0142y"
+    slot: 3
+    hiddenByFull: 0
+    isFull: 1
+    defaultIndex: -1
+    npcChance: 0.2
+    parts:
+    - {fileID: 766723520473918103, guid: 9a8349ef45cf4de6af96c17609af1cf7, type: 3}
+    - {fileID: 4234659692364203389, guid: cded3974a5ee49649e734976259b99e6, type: 3}
+    - {fileID: 7891812628822886358, guid: 1b532ce483664b4cb643729a6e427058, type: 3}
+    - {fileID: 8332078924796813837, guid: 9a339594990b478c8a45bbec83993d11, type: 3}
+  - id: outwear
+    label: "Kurtka / g\xF3ra"
+    slot: 3
+    hiddenByFull: 1
+    isFull: 0
+    defaultIndex: 0
+    npcChance: 0.85
+    parts:
+    - {fileID: 3426716223700996053, guid: ea187f5d3ad046a386b26ce0e6914c7b, type: 3}
+    - {fileID: 2121212402215538468, guid: 7c4583bc24a44410bf6bc92f8172d23c, type: 3}
+    - {fileID: 3935690340475707896, guid: 35e9ebbe31a14f259f6679d10c76c1ef, type: 3}
+  - id: pants
+    label: Spodnie / szorty
+    slot: 4
+    hiddenByFull: 1
+    isFull: 0
+    defaultIndex: 0
+    npcChance: 1
+    parts:
+    - {fileID: 8891070893107650034, guid: f2f8e9db47a64fd5abf33d2ad2a65ee1, type: 3}
+    - {fileID: 3350248468845389839, guid: 3c115747719040efbff2e678fbc4fd8d, type: 3}
+    - {fileID: 5052081845152989159, guid: a475d528b3eb4999a9669bf654cf4597, type: 3}
+  - id: socks
+    label: Skarpety
+    slot: 4
+    hiddenByFull: 1
+    isFull: 0
+    defaultIndex: -1
+    npcChance: 0.3
+    parts:
+    - {fileID: 658421345594549349, guid: 2a286d4e0ea4474ba1f6b1b3c9fbead9, type: 3}
+  - id: shoes
+    label: Buty
+    slot: 5
+    hiddenByFull: 0
+    isFull: 0
+    defaultIndex: 0
+    npcChance: 1
+    parts:
+    - {fileID: 2442062568381488477, guid: 02eb72ab046545f38e10837d43ef760c, type: 3}
+    - {fileID: 5013971624063481026, guid: a5eb88a807bb46d4867606160bbd325d, type: 3}
+    - {fileID: 6264628373624376238, guid: a59dc4d5ddff4edca1415588b92a76d9, type: 3}

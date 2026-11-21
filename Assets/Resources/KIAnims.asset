@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76a3aa978adbd0746b8d6ca448a15c10, type: 3}
+  m_Name: KIAnims
+  m_EditorClassIdentifier: Assembly-CSharp::MiniGTA.KIAnimLibrary
+  maleModel: {fileID: 919132149155446097, guid: 2faa610713d3b3c439473daa55e8c60a, type: 3}
+  femaleModel: {fileID: 919132149155446097, guid: 1841c298173cdad4db8df8602c8f1c8d, type: 3}
+  maleAvatar: {fileID: 9000000, guid: 2faa610713d3b3c439473daa55e8c60a, type: 3}
+  femaleAvatar: {fileID: 9000000, guid: 1841c298173cdad4db8df8602c8f1c8d, type: 3}
+  maleIdle: {fileID: -2576967968662016515, guid: 56fd86b76fc74d24d83522069f5deb9b, type: 3}
+  maleIdle2: {fileID: 3094330708855449807, guid: 9508ccae6dd32b54cb61bd81eda00380, type: 3}
+  maleTalk: {fileID: 3094330708855449807, guid: 5277e5180e302184fb73653674a14c85, type: 3}
+  maleWalk: {fileID: 3094330708855449807, guid: c133e3c197c12e04a9dd23bd0966910f, type: 3}
+  maleRun: {fileID: 3094330708855449807, guid: 6deac83e30d8acd4cbb8c7d8a11545bd, type: 3}
+  femaleIdle: {fileID: 3094330708855449807, guid: 0f69fd4f4ad106447896fb775199ed37, type: 3}
+  femaleIdle2: {fileID: 3094330708855449807, guid: 24b1b054ed689e44ba553f9841ebca06, type: 3}
+  femaleTalk: {fileID: 3094330708855449807, guid: ef7fc1c2505f93948addc245824a58b1, type: 3}
+  femaleWalk: {fileID: 3094330708855449807, guid: 2d87094962c8b48478651fa8fe1f7a5a, type: 3}
+  femaleRun: {fileID: 3094330708855449807, guid: 40786e67f3ceb094b9c00543f295cb5f, type: 3}

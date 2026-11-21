@@ -1,0 +1,13 @@
+Budynki z paczki Cartoon City: 507 (z nocnym podświetleniem okien: 0), zastąpione prymitywami (brak prefabu): 0
+  [OK] Pay'n'Spray Zachód (Repair): navmesh przed wejściem=True, w strefie=True, droga do strefy=True, blokady w progu=0
+  [OK] 24/7 Zachód (Store): navmesh przed wejściem=True, w strefie=True, droga do strefy=True, blokady w progu=0
+  [OK] Ammu-Nation Południe (Weapons): navmesh przed wejściem=True, w strefie=True, droga do strefy=True, blokady w progu=0
+  [OK] Kasyno Royal (Bar): navmesh przed wejściem=True, w strefie=True, droga do strefy=True, blokady w progu=0
+  [OK] Bar Pod Kogutem (Bar): navmesh przed wejściem=True, w strefie=True, droga do strefy=True, blokady w progu=0
+  [OK] Kryjówka (Safehouse): navmesh przed wejściem=True, w strefie=True, droga do strefy=True, blokady w progu=0
+  [OK] 24/7 Północ (Store): navmesh przed wejściem=True, w strefie=True, droga do strefy=True, blokady w progu=0
+  [OK] 24/7 Centrum (Store): navmesh przed wejściem=True, w strefie=True, droga do strefy=True, blokady w progu=0
+  [OK] Pay'n'Spray Północ (Repair): navmesh przed wejściem=True, w strefie=True, droga do strefy=True, blokady w progu=0
+  [OK] Bar Neon (Bar): navmesh przed wejściem=True, w strefie=True, droga do strefy=True, blokady w progu=0
+  [OK] Ammu-Nation Wschód (Weapons): navmesh przed wejściem=True, w strefie=True, droga do strefy=True, blokady w progu=0
+WYNIK: wszystko działa (budynki dostępne, misje osiągalne).

@@ -1,0 +1,719 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3258136209154483203
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 153961786975366837}
+  - component: {fileID: 7046306398896484304}
+  - component: {fileID: 2964778918608294432}
+  - component: {fileID: 4954001795459344069}
+  - component: {fileID: 3616947579206080796}
+  - component: {fileID: 2954152386479340645}
+  - component: {fileID: 2711291735954169257}
+  - component: {fileID: 6206562894183248036}
+  - component: {fileID: 2406112491702421056}
+  - component: {fileID: 7081959119655980081}
+  - component: {fileID: 2908976841503604683}
+  - component: {fileID: 4765254801521919695}
+  - component: {fileID: 8986898668853832925}
+  - component: {fileID: 7493741722684237078}
+  m_Layer: 0
+  m_Name: Player
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &153961786975366837
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3258136209154483203}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3051468700835124007}
+  - {fileID: 5861980750429798127}
+  - {fileID: 5142207126712639819}
+  - {fileID: 4610749406820154156}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!143 &7046306398896484304
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3258136209154483203}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Height: 2
+  m_Radius: 0.4
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 1, z: 0}
+--- !u!114 &2964778918608294432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3258136209154483203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Netcode.Runtime::Unity.Netcode.NetworkObject
+  GlobalObjectIdHash: 659973976
+  InScenePlacedSourceGlobalObjectIdHash: 0
+  m_InScenePlacedDisabledByDefault: 0
+  DeferredDespawnTick: 0
+  Ownership: 1
+  AlwaysReplicateAsRoot: 0
+  SynchronizeTransform: 1
+  m_InScenePlaced: 0
+  ActiveSceneSynchronization: 0
+  SceneMigrationSynchronization: 0
+  SpawnWithObservers: 1
+  DontDestroyWithOwner: 0
+  AutoObjectParentSync: 1
+  SyncOwnerTransformWhenParented: 1
+  AllowOwnerToParent: 0
+--- !u!114 &4954001795459344069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3258136209154483203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ddd4e5129f68864192bdd798a232925, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MiniGTA.ClientNetworkTransform
+  ShowTopMostFoldoutHeaderGroup: 1
+  NetworkTransformExpanded: 0
+  AutoOwnerAuthorityTickOffset: 1
+  PositionInterpolationType: 0
+  RotationInterpolationType: 0
+  ScaleInterpolationType: 0
+  PositionLerpSmoothing: 1
+  PositionMaxInterpolationTime: 0.1
+  RotationLerpSmoothing: 1
+  RotationMaxInterpolationTime: 0.1
+  ScaleLerpSmoothing: 1
+  ScaleMaxInterpolationTime: 0.1
+  AuthorityMode: 0
+  TickSyncChildren: 0
+  UseUnreliableDeltas: 0
+  SyncPositionX: 1
+  SyncPositionY: 1
+  SyncPositionZ: 1
+  SyncRotAngleX: 1
+  SyncRotAngleY: 1
+  SyncRotAngleZ: 1
+  SyncScaleX: 1
+  SyncScaleY: 1
+  SyncScaleZ: 1
+  PositionThreshold: 0.001
+  RotAngleThreshold: 0.01
+  ScaleThreshold: 0.01
+  UseQuaternionSynchronization: 0
+  UseQuaternionCompression: 0
+  UseHalfFloatPrecision: 0
+  InLocalSpace: 0
+  SwitchTransformSpaceWhenParented: 0
+  Interpolate: 1
+  SlerpPosition: 0
+--- !u!114 &3616947579206080796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3258136209154483203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22f8b2555067a6745b1eadbc97d8af3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MiniGTA.Health
+  ShowTopMostFoldoutHeaderGroup: 1
+  maxHealth: 100
+  faction: 0
+  despawnOnDeath: 0
+  despawnDelay: 10
+  Invulnerable: 0
+--- !u!114 &2954152386479340645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3258136209154483203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b3f0af0193b1574da7e234a5505bd63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MiniGTA.PlayerStats
+  ShowTopMostFoldoutHeaderGroup: 1
+  startMoney: 500
+  enableSaving: 1
+  autosaveInterval: 30
+--- !u!114 &2711291735954169257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3258136209154483203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5e3cb181db93eb4aa678a5e07fb2c95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MiniGTA.WantedSystem
+  ShowTopMostFoldoutHeaderGroup: 1
+  baseCooldown: 5
+  cooldownPerStar: 2
+--- !u!114 &6206562894183248036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3258136209154483203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8694396cb210634fb253ba14e9950e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MiniGTA.VehicleInteractor
+  ShowTopMostFoldoutHeaderGroup: 1
+  enterDistance: 4
+--- !u!114 &2406112491702421056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3258136209154483203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adfb4d13f203dee48a219659379efe17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MiniGTA.WeaponController
+  ShowTopMostFoldoutHeaderGroup: 1
+  weapons:
+  - name: Kij bejsbolowy
+    kind: 1
+    damage: 15
+    fireRate: 2
+    range: 1.8
+    spread: 0
+    pellets: 1
+    automatic: 0
+    magazineSize: 0
+    startAmmo: -1
+    reloadTime: 1.2
+    explosionRadius: 6
+    projectileSpeed: 18
+    aimFov: 0
+    startsOwned: 1
+    price: 0
+    ammoPrice: 100
+    viewModel: {fileID: 7145173942252098143, guid: dddaa84f7e04778488610b1d277948c6, type: 3}
+  - name: Pistolet
+    kind: 0
+    damage: 25
+    fireRate: 4
+    range: 70
+    spread: 1.5
+    pellets: 1
+    automatic: 0
+    magazineSize: 12
+    startAmmo: 72
+    reloadTime: 1.2
+    explosionRadius: 6
+    projectileSpeed: 18
+    aimFov: 0
+    startsOwned: 1
+    price: 300
+    ammoPrice: 40
+    viewModel: {fileID: 8181932489394996906, guid: a94b4dceb3189de42a504ee78ad1ac4e, type: 3}
+  - name: Uzi
+    kind: 0
+    damage: 14
+    fireRate: 12
+    range: 60
+    spread: 3
+    pellets: 1
+    automatic: 1
+    magazineSize: 30
+    startAmmo: 120
+    reloadTime: 1.2
+    explosionRadius: 6
+    projectileSpeed: 18
+    aimFov: 0
+    startsOwned: 0
+    price: 800
+    ammoPrice: 80
+    viewModel: {fileID: 4128999702982210222, guid: 257f67490d2e903419aff245c3baa8dd, type: 3}
+  - name: Shotgun
+    kind: 0
+    damage: 12
+    fireRate: 1.2
+    range: 30
+    spread: 7
+    pellets: 8
+    automatic: 0
+    magazineSize: 6
+    startAmmo: 30
+    reloadTime: 2
+    explosionRadius: 6
+    projectileSpeed: 18
+    aimFov: 0
+    startsOwned: 0
+    price: 1200
+    ammoPrice: 100
+    viewModel: {fileID: 4377388701144297877, guid: f155b605258950d4381cc177ac9cf747, type: 3}
+  - name: AK-74
+    kind: 0
+    damage: 30
+    fireRate: 8
+    range: 120
+    spread: 1
+    pellets: 1
+    automatic: 1
+    magazineSize: 30
+    startAmmo: 120
+    reloadTime: 1.6
+    explosionRadius: 6
+    projectileSpeed: 18
+    aimFov: 0
+    startsOwned: 0
+    price: 2500
+    ammoPrice: 150
+    viewModel: {fileID: 7063952283205406613, guid: 8adacf3381bf64b46afcec6047d1579a, type: 3}
+  - name: M249
+    kind: 0
+    damage: 26
+    fireRate: 13
+    range: 110
+    spread: 2.5
+    pellets: 1
+    automatic: 1
+    magazineSize: 100
+    startAmmo: 200
+    reloadTime: 3
+    explosionRadius: 6
+    projectileSpeed: 18
+    aimFov: 0
+    startsOwned: 0
+    price: 4000
+    ammoPrice: 300
+    viewModel: {fileID: 6983570516928881631, guid: 807afd87011468d49b87093cd4a0ce04, type: 3}
+  - name: Snajperka
+    kind: 0
+    damage: 150
+    fireRate: 0.7
+    range: 300
+    spread: 0
+    pellets: 1
+    automatic: 0
+    magazineSize: 5
+    startAmmo: 20
+    reloadTime: 2.2
+    explosionRadius: 6
+    projectileSpeed: 18
+    aimFov: 18
+    startsOwned: 0
+    price: 5000
+    ammoPrice: 200
+    viewModel: {fileID: 5157350394330804978, guid: 8b03887ffb36d9f4cb8a8e024d8ba1af, type: 3}
+  - name: Granat
+    kind: 2
+    damage: 140
+    fireRate: 1
+    range: 30
+    spread: 0
+    pellets: 1
+    automatic: 0
+    magazineSize: 1
+    startAmmo: 4
+    reloadTime: 0.5
+    explosionRadius: 7
+    projectileSpeed: 16
+    aimFov: 0
+    startsOwned: 0
+    price: 600
+    ammoPrice: 150
+    viewModel: {fileID: 67554348346184113, guid: 7ff74e169a6c1cf4287ca481bd51c1eb, type: 3}
+  - name: RPG
+    kind: 3
+    damage: 250
+    fireRate: 0.5
+    range: 200
+    spread: 0
+    pellets: 1
+    automatic: 0
+    magazineSize: 1
+    startAmmo: 4
+    reloadTime: 2.5
+    explosionRadius: 8
+    projectileSpeed: 45
+    aimFov: 0
+    startsOwned: 0
+    price: 8000
+    ammoPrice: 500
+    viewModel: {fileID: 336245624437911420, guid: ac1d433ffe97c974e9206736686106fc, type: 3}
+  muzzle: {fileID: 8172935275369571858}
+  grenadePrefab: {fileID: 1700086285476106892, guid: f1e482ba14aa3884fbf152e482e6dcf8, type: 3}
+  rocketPrefab: {fileID: 2814609263666775614, guid: 0cedf6ba33c31dc4d864ed48b118e352, type: 3}
+--- !u!114 &7081959119655980081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3258136209154483203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8be41ba88e832d43993dc852c70649c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MiniGTA.PlayerMission
+  ShowTopMostFoldoutHeaderGroup: 1
+--- !u!114 &2908976841503604683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3258136209154483203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a998a6683a33cac45a6febc07c897f35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MiniGTA.PlayerController
+  ShowTopMostFoldoutHeaderGroup: 1
+  walkSpeed: 4.5
+  sprintSpeed: 8
+  jumpHeight: 1.2
+  gravity: -20
+  turnSpeed: 720
+  respawnDelay: 4
+  regenUpTo: 50
+  regenDelay: 8
+  regenPerSecond: 3
+  deathMoneyPenalty: 100
+  animator: {fileID: 0}
+--- !u!114 &4765254801521919695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3258136209154483203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4577b38a724ecfd468faaaea9e79e1c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MiniGTA.DebugCheats
+  ShowTopMostFoldoutHeaderGroup: 1
+  allowCheats: 1
+--- !u!114 &8986898668853832925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3258136209154483203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9de1706aff21e56409e2897bfbfc9ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MiniGTA.WeaponVisual
+  hand: {fileID: 5142207126712639819}
+  fallback: {fileID: 6880997107303469859}
+--- !u!114 &7493741722684237078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3258136209154483203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b00414fda4244494ba4e59a4454d1ad1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MiniGTA.ShopClient
+  ShowTopMostFoldoutHeaderGroup: 1
+--- !u!1 &4785321600739711365
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3051468700835124007}
+  - component: {fileID: 3596309927009213274}
+  m_Layer: 0
+  m_Name: Hitbox
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3051468700835124007
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4785321600739711365}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 153961786975366837}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &3596309927009213274
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4785321600739711365}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.4
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 1, z: 0}
+--- !u!1 &5576444256221915403
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8172935275369571858}
+  m_Layer: 0
+  m_Name: Muzzle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8172935275369571858
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5576444256221915403}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0.6}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5861980750429798127}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6880997107303469859
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5861980750429798127}
+  - component: {fileID: 2010869643406383708}
+  - component: {fileID: 9087917289923834186}
+  m_Layer: 0
+  m_Name: Gun
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5861980750429798127
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6880997107303469859}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.35, y: 1.25, z: 0.45}
+  m_LocalScale: {x: 0.08, y: 0.12, z: 0.45}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8172935275369571858}
+  m_Father: {fileID: 153961786975366837}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &2010869643406383708
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6880997107303469859}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &9087917289923834186
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6880997107303469859}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: f349c6da7b998ab47ad52e781672267b, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &7561450199245120352
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5142207126712639819}
+  m_Layer: 0
+  m_Name: Hand
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5142207126712639819
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7561450199245120352}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.32, y: 1.25, z: 0.35}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 153961786975366837}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8389587168654984100
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4610749406820154156}
+  - component: {fileID: 523773177976661377}
+  m_Layer: 0
+  m_Name: ModularModel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4610749406820154156
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8389587168654984100}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 153961786975366837}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &523773177976661377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8389587168654984100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ea77f2a0bc2b9643ac59fa4dae4da78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MiniGTA.ModularCharacter
